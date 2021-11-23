@@ -3,6 +3,7 @@ body {
   color: #505962;
 }
 
+
 .service-wrap {
   z-index: -999 !important;
 }
@@ -13,6 +14,7 @@ body {
   
 }
 
+
 #contact {
   z-index: 1000;
 }
@@ -20,8 +22,31 @@ body {
 
 
 /*============= FOOTER =============*/
+ul {
+  list-style-type: none;
+  max-width: 16rem;
+  margin: 0 auto;
+}
+i{
+  color: #8C96A2;
+  font-size:  2.5rem;
 
-
+}
+.twitter:hover{
+  color: #0d71bb;
+}
+.youtube:hover{
+  color: red;
+}
+.instagram:hover{
+  color: #C13584;
+}
+.facebook:hover{
+  color: #0f2679;
+}
+i:hover{
+  color: #0c5460;
+}
 /*===== FIXED BACKGROUND IMG =====*/
 .fixed {
   position: fixed;
